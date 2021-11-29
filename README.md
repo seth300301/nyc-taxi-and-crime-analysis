@@ -1,4 +1,5 @@
 # Predicting the Amount of Taxi Pickups in NYC Zones (2019)
+This report aims to depict the relationship between the number of taxi pickups and statistics of both crime and taxi trips happening within zones across the boroughs of New York City; the Bronx, Brooklyn, Manhattan, Queens, and Staten Island, and a “sixth borough”; the EWR Airport. This report attempts to predict the amount of taxi pickups of each zone from October to December in 2019 given the corresponding zone’s crime and taxi statistics from 2019’s first nine months, specifically studying yellow and green taxi trips. The crime statistics considered regard arrests, shootings, and complaints in each zone. This report is directed mainly towards taxi businesses, taxi drivers, police, and even data analysts interested in New York taxi data.
 
 ## Dependencies
 - Language: Python 3.9.5
