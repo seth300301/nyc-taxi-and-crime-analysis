@@ -1,14 +1,11 @@
-# MAST30034 Project 1 - Quantitative Analysis
-- Student Name: Seth Ng Jun-Jie
-- Student ID: 1067992
-- Due Date: Friday 13th of August 11:59:00 am (AEST).
-- Report Link: https://www.overleaf.com/project/61138f30681e42849c82f060
+# Predicting the Amount of Taxi Pickups in NYC Zones (2019)
 
-# Dependencies
+## Dependencies
 - Language: Python 3.9.5
 - Packages / Libraries: Please refer to `requirements.txt`
+- Note: 'raw_data' folder was omitted due to its large size, you may form it following the steps below
 
-# Datasets
+## Datasets
 - NYC TLC: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
     - Yellow and Green Taxi datasets for all of 2019
     - Rename each to following format: "color_month_2019.csv" e.g. "yellow_jan_2019.csv"
@@ -39,7 +36,7 @@
     - Rename to "complaints_2019.csv"
     - Place in `raw_data`
 
-# Directory
+## Directory
 - `raw_data`: Files are too large to commit. Please refer to instructions for each dataset above to download required raw data.
 - `preprocessed_data`: Contains all the preprocessed data files.
 - `plots`: Contains all plots, figures, and folium htmls.
@@ -50,5 +47,5 @@
     - Notebook 4: Statistical Modelling
 - `requirements.txt`: Contains list of all libraries used on computer project was carried out on. 
 
-# Other
+## Other
 - You may encounter a memory allocation issue in Notebook 1 if you are trying to reconduct the process depending on your device. Please close all other applications and windows to allow for optimal memory allocations.
